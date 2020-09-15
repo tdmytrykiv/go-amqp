@@ -1,11 +1,11 @@
-# **github.com/Azure/go-amqp**
+# **github.com/tdmytrykiv/go-amqp**
 
 [![Build Status](https://dev.azure.com/azure-sdk/public/_apis/build/status/go/Azure.go-amqp?branchName=master)](https://dev.azure.com/azure-sdk/public/_build/latest?definitionId=1292&branchName=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Azure/go-amqp)](https://goreportcard.com/report/github.com/Azure/go-amqp)
-[![GoDoc](https://godoc.org/github.com/Azure/go-amqp?status.svg)](http://godoc.org/github.com/Azure/go-amqp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tdmytrykiv/go-amqp)](https://goreportcard.com/report/github.com/tdmytrykiv/go-amqp)
+[![GoDoc](https://godoc.org/github.com/tdmytrykiv/go-amqp?status.svg)](http://godoc.org/github.com/tdmytrykiv/go-amqp)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Azure/go-amqp/master/LICENSE)
 
-github.com/Azure/go-amqp is an AMQP 1.0 client implementation for Go.
+github.com/tdmytrykiv/go-amqp is an AMQP 1.0 client implementation for Go.
 
 [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) is not compatible with AMQP 0-9-1 or 0-10, which are
 the most common AMQP protocols in use today. A list of AMQP 1.0 brokers and other
@@ -16,7 +16,7 @@ This library aims to be stable and worthy of production usage, but the API is st
 ## Install
 
 ```
-go get -u github.com/Azure/go-amqp
+go get -u github.com/tdmytrykiv/go-amqp
 ```
 
 ## Contributing
@@ -34,7 +34,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Azure/go-amqp"
+	"github.com/tdmytrykiv/go-amqp"
 )
 
 func main() {

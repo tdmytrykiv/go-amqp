@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp"
-	"github.com/Azure/go-amqp/internal/testconn"
 	"github.com/fortytw2/leaktest"
+	"github.com/tdmytrykiv/go-amqp"
+	"github.com/tdmytrykiv/go-amqp/internal/testconn"
 )
 
 func init() {
